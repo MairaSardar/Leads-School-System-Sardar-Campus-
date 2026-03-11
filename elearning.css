@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   .navbar {
+    background-color: orangered;
+   }
+   .course-card {
+    margin-bottom: 20px;
+   }
+   .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+   }
+   .btn-warning {
+    background-color: #FF5722 !important;
+    border-color: #FF5722 !important;
+    color: #fff !important;
+  }
+  .btn-warning:hover, .btn-warning:focus {
+    background-color: #FF5722 !important;
+    border-color: #FF5722 !important;
+    color: #fff !important;
+  }
+  .urdu-text {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    direction: rtl;
+}
+h2{
+  color: #FF5722;
+}
+form{
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: wheat;
+  border: 3px solid#FF5722;
+  border-radius: 10px;
+}

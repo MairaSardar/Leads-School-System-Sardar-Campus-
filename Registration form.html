@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" School Website ">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Maira Sardar ">
+    <title> Leads School Registration Form </title>
+    <link rel="stylesheet" href="school.css">
+</head>
+<body>
+    <h1> Leads School System <br> Sardar Campus Burewala </h1>
+    <div class="CS">
+        <h2> Registration Form </h2>
+    <form>
+       <div class="flex">
+            <label for="Name"> Name: </label>
+            <input type="text" name="Name" class="Plate" required>
+        </div>
+
+        <div class="flex" >
+            <label for="Father Name">Father Name:</label>
+            <input type="text" name="Name" class="Plate" required>
+        </div>
+   
+        <div class="flex">
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+        <div class="flex">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" required>
+            <label for="grade">Grade:</label>
+            <select id="grade" name="grade" required>
+            <option value="">Select Grade</option>
+            <option value="P.G">Play Group</option>
+            <option value="Nursery">Nursery</option>
+            <option value="Prep">Prep</option>
+            <option value="1">One Grade</option>
+            <option value="2">Two Grade</option>
+            <option value="3">Three Grade</option>
+            <option value="4">4th Grade</option>
+            <option value="5">5th Grade</option>
+            <option value="6">6th Grade</option>
+            <option value="7">7th Grade</option>
+            <option value="8">8th Grade</option>
+            <option value="9">9th Grade</option>
+            <option value="10">10th Grade</option>
+        </select>
+        </div>
+        <div class="flex">
+        <label for="religion">Religion:</label>
+        <select id="religion" name="religion" required>
+            <option value="">Select Religion</option>
+            <option value="Islam">Islam</option>
+            <option value="other">other</option>
+        </select>
+        <label for="nationality">Nationality:</label>
+        <select id="nationality" name="nationality" required>
+            <option value="">Select Nationality</option>
+            <option value="Pakistani">Pakistani</option>
+            <option value="American">American</option>
+            <option value="British">British</option>
+            <option value="Canadian">Canadian</option>
+            <option value="Indian">Indian</option>
+            <option value="other">other</option>
+        </select>
+        </div>
+        <div class="flex">
+            <label for="Address"> Address:</label>
+            <input type="text" id="Address" name="Address" required>
+            <label for="contact-number">Contact Number:</label>
+            <input type="tel" id="contact-number" name="contact-number" required>
+        </div>
+        <div class="flex">
+            <label> Previous School Information: </label>
+            <input type="text">
+        </div>
+        <div class="flex">
+            <label>Have you previously applied to this school?</label>
+            <input type="radio" id="yes" name="previously-applied" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="previously-applied" value="No">
+            <label for="no">No</label>
+        </div>
+        <div class="flex">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <button type="submit">Submit</button>
+        <p>Not registered? <a href="#">Register here</a></p>
+        
+    </form>
+    </div>
+</body>
+</html>
